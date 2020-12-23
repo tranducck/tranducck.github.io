@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bot/templates/tu-van-o-to-bbqvueuwkycglqreem", {data:[{}],fetch:[],mutations:void 0});

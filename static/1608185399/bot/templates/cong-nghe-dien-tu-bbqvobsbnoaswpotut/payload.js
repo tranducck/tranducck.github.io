@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bot/templates/cong-nghe-dien-tu-bbqvobsbnoaswpotut", {data:[{}],fetch:[],mutations:void 0});

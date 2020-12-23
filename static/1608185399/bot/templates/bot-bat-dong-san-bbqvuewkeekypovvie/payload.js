@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bot/templates/bot-bat-dong-san-bbqvuewkeekypovvie", {data:[{}],fetch:[],mutations:void 0});
