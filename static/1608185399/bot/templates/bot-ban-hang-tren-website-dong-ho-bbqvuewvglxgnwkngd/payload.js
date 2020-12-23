@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bot/templates/bot-ban-hang-tren-website-dong-ho-bbqvuewvglxgnwkngd", {data:[{}],fetch:[],mutations:void 0});

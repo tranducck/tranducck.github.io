@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bot/templates/tu-van-spa--bbqvueunwedfrhiuxt", {data:[{}],fetch:[],mutations:void 0});

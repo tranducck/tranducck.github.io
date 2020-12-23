@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bot/templates/benh-vien-phong-kham-bbqvluddtzymchtkmw", {data:[{}],fetch:[],mutations:void 0});

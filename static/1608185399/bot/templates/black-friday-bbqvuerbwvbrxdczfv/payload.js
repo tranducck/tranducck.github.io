@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bot/templates/black-friday-bbqvuerbwvbrxdczfv", {data:[{}],fetch:[],mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bot/templates/bot-giam-gia-bbqwahwgqgzklwrpnl", {data:[{}],fetch:[],mutations:void 0});

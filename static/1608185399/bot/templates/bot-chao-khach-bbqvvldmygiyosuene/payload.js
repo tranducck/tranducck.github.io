@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bot/templates/bot-chao-khach-bbqvvldmygiyosuene", {data:[{}],fetch:[],mutations:void 0});
