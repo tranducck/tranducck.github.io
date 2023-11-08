@@ -287,13 +287,16 @@ const b64toBlobUrl = (b64Data, contentType = '', sliceSize = 512) => {
 
         // get point on heart with -PI <= t <= PI
         function pointOnHeart(t) {
+          let cords = [160, 130, 50, 20, 10, 25]
+          const RATIO = 1.6
+          cords = cords.map(x => Math.round(x*RATIO))
           return new Point(
-            160 * Math.pow(Math.sin(t), 3),
-            130 * Math.cos(t) -
-              50 * Math.cos(2 * t) -
-              20 * Math.cos(3 * t) -
-              10 * Math.cos(4 * t) +
-              25
+            cords[0] * Math.pow(Math.sin(t), 3),
+            cords[1] * Math.cos(t) -
+              cords[2] * Math.cos(2 * t) -
+              cords[3] * Math.cos(3 * t) -
+              cords[4] * Math.cos(4 * t) +
+              cords[5]
           );
         }
 
