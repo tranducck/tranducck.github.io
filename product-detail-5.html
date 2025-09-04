@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Zenith Phone - Details</title>
+		<style>
+			body {
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+				margin: 0;
+				background-color: #f4f4f9;
+				color: #333;
+			}
+			header {
+				background-color: #fff;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+				padding: 1rem 2rem;
+			}
+			header a {
+				text-decoration: none;
+				color: #1a73e8;
+				font-weight: bold;
+			}
+			.product-detail-container {
+				display: flex;
+				flex-wrap: wrap;
+				max-width: 1100px;
+				margin: 2rem auto;
+				background: #fff;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+				border-radius: 8px;
+				overflow: hidden;
+			}
+			.product-image {
+				flex: 1 1 400px;
+				padding: 2rem;
+				text-align: center;
+			}
+			.product-image img {
+				max-width: 100%;
+				height: auto;
+				border-radius: 8px;
+			}
+			.product-info {
+				flex: 1 1 600px;
+				padding: 2rem;
+			}
+			.product-info h1 {
+				margin-top: 0;
+				font-size: 2.5rem;
+				color: #ff9800;
+			}
+			.product-info .price {
+				font-size: 2rem;
+				font-weight: bold;
+				color: #e53935;
+				margin: 1rem 0;
+			}
+			.product-info .sku,
+			.product-info .availability {
+				font-size: 0.9rem;
+				color: #666;
+				margin-bottom: 1rem;
+			}
+			.product-info .description {
+				font-size: 1.1rem;
+				line-height: 1.6;
+			}
+			.buy-button {
+				background-color: #ff9800;
+				color: #fff;
+				border: none;
+				padding: 1rem 2rem;
+				font-size: 1.2rem;
+				border-radius: 5px;
+				cursor: pointer;
+				transition: background-color 0.2s;
+				margin-top: 1.5rem;
+			}
+			.buy-button:hover {
+				background-color: #f57c00;
+			}
+			footer {
+				text-align: center;
+				padding: 1.5rem;
+				margin-top: 2rem;
+				background-color: #333;
+				color: #fff;
+			}
+		</style>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org/",
+				"@type": "Product",
+				"name": "Zenith Phone",
+				"image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600",
+				"description": "The Zenith Phone offers a pure, secure, and always-up-to-date OS with a focus on privacy and sustainability. Built with recycled materials and featuring a user-replaceable battery.",
+				"sku": "ZNT-PHN-STD-128",
+				"brand": {
+					"@type": "Brand",
+					"name": "Zenith"
+				},
+				"offers": {
+					"@type": "Offer",
+					"url": "/home/duc/workspace/static-storefront/product-detail-5.html",
+					"priceCurrency": "USD",
+					"price": "899.00",
+					"priceValidUntil": "2026-12-31",
+					"itemCondition": "https://schema.org/NewCondition",
+					"availability": "https://schema.org/InStock"
+				},
+				"aggregateRating": {
+					"@type": "AggregateRating",
+					"ratingValue": "4.6",
+					"reviewCount": "150"
+				},
+				"additionalProperty": [
+					{"@type": "PropertyValue", "name": "Processor", "value": "EcoChip 5"},
+					{"@type": "PropertyValue", "name": "RAM", "value": "8 GB"},
+					{"@type": "PropertyValue", "name": "Display", "value": "6.4\" FHD+ OLED"},
+					{"@type": "PropertyValue", "name": "Rear Camera", "value": "64MP Main, 16MP Ultra Wide"},
+					{"@type": "PropertyValue", "name": "Dimensions", "value": "158.9 x 73.6 x 8.7 mm"},
+					{"@type": "PropertyValue", "name": "GPU", "value": "Mali-G78 MP14"}
+				]
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<a href="index.html">&larr; Back to Products</a>
+		</header>
+		<main class="product-detail-container">
+			<div class="product-image">
+				<img
+					src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600"
+					alt="Zenith Phone Smartphone"
+				/>
+			</div>
+			<div class="product-info">
+				<h1>Zenith Phone</h1>
+				<p class="price">$899.00</p>
+				<p class="sku">SKU: ZNT-PHN-STD-128</p>
+				<p class="availability">Availability: In Stock</p>
+				<h2>Description</h2>
+				<p class="description">
+					The Zenith Phone offers a pure, secure, and always-up-to-date OS with a focus on privacy and sustainability.
+					Built with recycled materials and featuring a user-replaceable battery, it's the smart choice for the
+					conscious consumer.
+				</p>
+				<h2>Specifications</h2>
+				<table class="specs-table">
+					<tbody>
+						<tr>
+							<td>Processor</td>
+							<td>EcoChip 5</td>
+						</tr>
+						<tr>
+							<td>RAM</td>
+							<td>8 GB</td>
+						</tr>
+						<tr>
+							<td>Display</td>
+							<td>6.4" FHD+ OLED</td>
+						</tr>
+						<tr>
+							<td>Rear Camera</td>
+							<td>64MP Main, 16MP Ultra Wide</td>
+						</tr>
+						<tr>
+							<td>Dimensions</td>
+							<td>158.9 x 73.6 x 8.7 mm</td>
+						</tr>
+						<tr>
+							<td>GPU</td>
+							<td>Mali-G78 MP14</td>
+						</tr>
+					</tbody>
+				</table>
+				<button class="buy-button">Add to Cart</button>
+			</div>
+		</main>
+		<footer>
+			<p>&copy; 2025 didong24. All rights reserved.</p>
+		</footer>
+	</body>
+</html>
